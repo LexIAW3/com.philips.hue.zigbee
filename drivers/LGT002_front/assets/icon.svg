@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <radialGradient id="frontGrad" cx="128" cy="110" r="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFE9B0"/>
+      <stop offset="70%" stop-color="#FFC266"/>
+      <stop offset="100%" stop-color="#E89544"/>
+    </radialGradient>
+  </defs>
+  <rect width="256" height="256" fill="none"/>
+  <ellipse cx="128" cy="110" rx="80" ry="70" fill="url(#frontGrad)"/>
+  <rect x="60" y="170" width="136" height="50" rx="10" fill="#2B2B2B"/>
+  <rect x="100" y="215" width="56" height="10" rx="3" fill="#1A1A1A"/>
+  <text x="128" y="202" text-anchor="middle" fill="#FFF" font-family="sans-serif" font-size="14" font-weight="bold">FRONT</text>
+</svg>

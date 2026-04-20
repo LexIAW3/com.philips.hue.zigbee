@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="backGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF6EC7"/>
+      <stop offset="50%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" fill="none"/>
+  <ellipse cx="128" cy="110" rx="80" ry="70" fill="url(#backGrad)" opacity="0.85"/>
+  <rect x="60" y="170" width="136" height="50" rx="10" fill="#2B2B2B"/>
+  <rect x="100" y="215" width="56" height="10" rx="3" fill="#1A1A1A"/>
+  <text x="128" y="202" text-anchor="middle" fill="#FFF" font-family="sans-serif" font-size="14" font-weight="bold">BACK</text>
+</svg>

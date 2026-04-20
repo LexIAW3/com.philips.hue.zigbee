@@ -1,0 +1,57 @@
+{
+  "id": "LGT002_front",
+  "name": {
+    "en": "Hue Twilight (front)",
+    "nl": "Hue Twilight (voor)",
+    "de": "Hue Twilight (vorne)",
+    "es": "Hue Twilight (frontal)"
+  },
+  "class": "light",
+  "capabilities": [
+    "onoff",
+    "dim",
+    "light_hue",
+    "light_saturation",
+    "light_temperature",
+    "light_mode"
+  ],
+  "capabilitiesOptions": {
+    "light_temperature": {
+      "min": 153,
+      "max": 500
+    }
+  },
+  "energy": {
+    "approximation": {
+      "usageOn": 12,
+      "usageOff": 0.4
+    }
+  },
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  },
+  "zigbee": {
+    "manufacturerName": [
+      "Signify Netherlands B.V.",
+      "Philips"
+    ],
+    "productId": [
+      "LGT002"
+    ],
+    "endpoints": {
+      "11": {
+        "clusters": [0, 3, 4, 5, 6, 8, 768, 4096],
+        "bindings": [6, 8, 768]
+      }
+    },
+    "learnmode": {
+      "image": "{{driverAssetsPath}}/icon.svg",
+      "instruction": {
+        "en": "Reset the Hue Twilight by powering it off for 5 seconds and then on again, or use the Hue Bluetooth app to factory reset the lamp. Place the lamp close to Homey, then select this device type to pair the FRONT light zone.",
+        "es": "Resetea la Hue Twilight cortando la alimentación 5 segundos y volviéndola a encender, o usa la app Hue Bluetooth para hacer factory reset. Coloca la lámpara cerca del Homey y selecciona este tipo de dispositivo para emparejar la zona FRONTAL."
+      }
+    }
+  }
+}
